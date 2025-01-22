@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 const Hero: React.FC = () => {
     const CustomArrow = ({ onClick, direction }: { onClick?: () => void; direction: "prev" | "next" }) => (
         <button
-            className={`absolute top-1/2 transform -translate-y-1/2 z-10 ${
+            className={`hidden md:flex absolute top-1/2 transform -translate-y-1/2 z-10 ${
                 direction === "prev" ? "left-6" : "right-6"
             } bg-black bg-opacity-50 rounded-full p-3 hover:bg-opacity-75 transition`}
             onClick={onClick}

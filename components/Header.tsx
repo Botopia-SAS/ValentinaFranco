@@ -243,7 +243,7 @@ const Header: React.FC = () => {
                         />
                         <span className='hidden md:flex'>Servicios</span>
                     </Link>
-                    <Link href="/suscripcion" className="flex items-center space-x-2 bg-purple-600 text-white py-1 px-4 rounded-full shadow-md hover:bg-purple-700">
+                    <Link href="/suscripcion" className="flex items-center space-x-2 bg-transparent text-black py-1 px-4 rounded-full shadow-lg hover:bg-purple-700">
                         <img
                             src="/sub.svg" // Reemplaza con la ruta de tu logo
                             alt="Subs"

@@ -6,7 +6,7 @@ const Products: React.FC = () => {
     const products = [
         {
             id: 1,
-            name: "Besties - Huesos Masticables Medianos",
+            name: "Besties - Huesos Masticables",
             image: "/products/besties-huesos.jpg",
             price: 19000,
             discountedPrice: 17000,
@@ -48,14 +48,14 @@ const Products: React.FC = () => {
 
     return (
         <div className="bg-gray-50 py-10">
-            <div className="max-w-7xl mx-auto px-6">
+            <div className="max-w-screen-xl mx-auto px-4">
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">Favoritos</h2>
                 {/* Contenedor de scroll horizontal */}
                 <div className="flex overflow-x-auto space-x-4 scrollbar-hide">
                     {products.map((product) => (
                         <div
                             key={product.id}
-                            className="min-w-[250px] bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition flex-shrink-0"
+                            className="min-w-[250px] max-w-[300px] basis-[250px] bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition flex-shrink-0"
                         >
                             {/* Imagen del producto */}
                             <div className="relative">
