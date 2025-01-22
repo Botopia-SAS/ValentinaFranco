@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 const Categories: React.FC = () => {
     const categories = [
-        { id: 1, name: "Alimento", icon: "/alimento.svg", link: "/alimento" },
-        { id: 2, name: "Veterinaria", icon: "/veterinaria.svg", link: "/Veterinaria" },
-        { id: 3, name: "Cachorros", icon: "/cachorros.svg", link: "/cachorros" },
-        { id: 4, name: "Juguetes", icon: "/juguetes.svg", link: "/juguetes" },
-        { id: 5, name: "Farmapet", icon: "/farmapet.svg", link: "/farmapet" },
-        { id: 6, name: "Accesorios", icon: "/accesorios.svg", link: "/accesorios" },
+        { id: 1, name: "Alimento", icon: "/alimento.svg", link: "/" },
+        { id: 2, name: "Veterinaria", icon: "/veterinaria.svg", link: "/" },
+        { id: 3, name: "Cachorros", icon: "/cachorros.svg", link: "/" },
+        { id: 4, name: "Juguetes", icon: "/juguetes.svg", link: "/" },
+        { id: 5, name: "Farmapet", icon: "/farmapet.svg", link: "/" },
+        { id: 6, name: "Accesorios", icon: "/accesorios.svg", link: "/" },
     ];
 
     return (

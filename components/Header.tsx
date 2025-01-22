@@ -142,13 +142,13 @@ const Header: React.FC = () => {
                             <Link href="/" className="text-black font-medium hover:underline">
                                 Inicio
                             </Link>
-                            <Link href="/productos" className="text-black font-medium hover:underline">
+                            <Link href="/" className="text-black font-medium hover:underline">
                                 Productos
                             </Link>
-                            <Link href="/categorias" className="text-black font-medium hover:underline">
+                            <Link href="/" className="text-black font-medium hover:underline">
                                 Categorías
                             </Link>
-                            <Link href="/contacto" className="text-black font-medium hover:underline">
+                            <Link href="/" className="text-black font-medium hover:underline">
                                 Contacto
                             </Link>
                         </nav>
@@ -156,7 +156,7 @@ const Header: React.FC = () => {
 
                     {/* Ícono del carrito */}
                     <div className="items-center space-x-4">
-                        <Link href="/carrito" className="relative hidden md:flex">
+                        <Link href="/" className="relative hidden md:flex">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-8 w-8 text-black"
@@ -187,16 +187,16 @@ const Header: React.FC = () => {
                             <Link href="/" className="text-gray-800 font-medium hover:text-primary">
                                 Inicio
                             </Link>
-                            <Link href="/productos" className="text-gray-800 font-medium hover:text-primary">
+                            <Link href="/" className="text-gray-800 font-medium hover:text-primary">
                                 Productos
                             </Link>
-                            <Link href="/categorias" className="text-gray-800 font-medium hover:text-primary">
+                            <Link href="/" className="text-gray-800 font-medium hover:text-primary">
                                 Categorías
                             </Link>
-                            <Link href="/contacto" className="text-gray-800 font-medium hover:text-primary">
+                            <Link href="/" className="text-gray-800 font-medium hover:text-primary">
                                 Contacto
                             </Link>
-                            <Link href="/carrito" className="">
+                            <Link href="/" className="">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-8 w-8 text-black"
@@ -219,7 +219,7 @@ const Header: React.FC = () => {
             {/* Botones horizontales debajo del header */}
             <div className="bg-gray-100 py-2 shadow-md">
                 <div className="max-w-7xl mx-auto flex flex-wrap justify-center gap-10 md:gap-28 px-6">
-                    <Link href="/perros" className="flex items-center space-x-2 bg-transparent text-black py-1 px-2 rounded-full shadow-lg hover:bg-blue-700">
+                    <Link href="/" className="flex items-center space-x-2 bg-transparent text-black py-1 px-2 rounded-full shadow-lg hover:bg-blue-700">
                         <img
                             src="/perro.svg" // Reemplaza con la ruta de tu logo
                             alt="Perro"
@@ -227,7 +227,7 @@ const Header: React.FC = () => {
                         />
                         <span className='hidden md:flex'>Perros</span>
                     </Link>
-                    <Link href="/gatos" className="flex items-center space-x-2 bg-transparent text-black py-1 px-4 rounded-full shadow-lg hover:bg-yellow-700">
+                    <Link href="/" className="flex items-center space-x-2 bg-transparent text-black py-1 px-4 rounded-full shadow-lg hover:bg-yellow-700">
                         <img
                             src="/gato.svg" // Reemplaza con la ruta de tu logo
                             alt="Gato"
@@ -235,7 +235,7 @@ const Header: React.FC = () => {
                         />
                         <span className='hidden md:flex'>Gatos</span>
                     </Link>
-                    <Link href="/veterinaria" className="flex items-center space-x-2 bg-transparent text-black py-1 px-4 rounded-full shadow-md hover:bg-green-700">
+                    <Link href="/" className="flex items-center space-x-2 bg-transparent text-black py-1 px-4 rounded-full shadow-md hover:bg-green-700">
                         <img
                             src="/veterinaria.svg" // Reemplaza con la ruta de tu logo
                             alt="Veterinaria"
@@ -243,7 +243,7 @@ const Header: React.FC = () => {
                         />
                         <span className='hidden md:flex'>Servicios</span>
                     </Link>
-                    <Link href="/suscripcion" className="flex items-center space-x-2 bg-transparent text-black py-1 px-4 rounded-full shadow-lg hover:bg-purple-700">
+                    <Link href="/" className="flex items-center space-x-2 bg-transparent text-black py-1 px-4 rounded-full shadow-lg hover:bg-purple-700">
                         <img
                             src="/sub.svg" // Reemplaza con la ruta de tu logo
                             alt="Subs"
